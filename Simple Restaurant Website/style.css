@@ -380,3 +380,70 @@ section{
     background: var(--main-color);
     border-radius: 9px;
 }
+
+
+.form{
+    background-color:rgb(201, 198, 198);
+    padding: 30px;
+    border-radius: 10px;
+    width: 45%;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    margin-bottom: 10px;
+    color:var(--text-color);
+    font-weight: bold;
+}
+.form input, .form textarea{
+    padding: 10px;
+    border-radius: 5px; /* this provides a rounded corner to the input and textarea */
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form textarea{
+    height: 100px;
+    resize: none; /*this prevents the user from resizing the textarea*/
+}
+.form button{
+    padding: 10px 40px;
+    display: inline-block;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: all .6s ease;
+    letter-spacing: 2px;
+    border: 1px solid var(--other-color);
+}
+.form button:hover{
+    color:var(--bg-color);
+    background-color: var(--main-color);
+}
+.contact{
+    background-color:var(--bg-color);
+    border: 2px solid var(--other-color);
+    border-radius: 15px;
+    margin: 30px 10%;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact img{
+    width:500px;
+    height: 350px;
+    border-radius: 15px;
+}
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
