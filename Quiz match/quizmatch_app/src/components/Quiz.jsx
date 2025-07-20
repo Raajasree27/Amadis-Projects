@@ -63,7 +63,7 @@ function Quiz({setQuizStage,score,setScore}){
     return(
       <div className="quiz-wrapper">
         <div className="header">
-          <p>{currentQuestion +1} of {shuffle.length} Questions.</p>  
+          <p>{currentQuestion +1} out of {shuffle.length} Questions.</p>  
         <div className="time-bar-wrapper">
             <div className="timer-bar" style={{width:`${(timeleft/15)*100}%`}}></div>
         </div>
