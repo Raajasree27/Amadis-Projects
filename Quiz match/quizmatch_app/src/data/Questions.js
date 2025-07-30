@@ -85,6 +85,107 @@ const QUESTIONS = [
 		options: ['3000', '8080', '8000', '5000'],
 		correctOption: '3000',
 	},
+
+	{
+    question: 'What is the purpose of the useEffect hook in React?',
+    options: [
+      'To directly manipulate the DOM',
+      'To fetch data and handle side effects in functional components',
+      'To update state variables',
+      'To define class components',
+    ],
+    correctOption: 'To fetch data and handle side effects in functional components',
+  },
+  {
+    question: 'Which of the following best describes the virtual DOM?',
+    options: [
+      'A direct representation of the actual DOM',
+      'A lightweight copy of the real DOM used for performance optimization',
+      'A browser API for rendering UI',
+      'A state management tool',
+    ],
+    correctOption: 'A lightweight copy of the real DOM used for performance optimization',
+  },
+  {
+    question: 'What happens when you call setState in a React component?',
+    options: [
+      'It immediately changes the state',
+      'It queues a state update and triggers a re-render',
+      'It mutates the existing state object',
+      'It updates the Redux store',
+    ],
+    correctOption: 'It queues a state update and triggers a re-render',
+  },
+  {
+    question: 'What is the primary purpose of keys in React lists?',
+    options: [
+      'To style elements uniquely',
+      'To uniquely identify elements and optimize rendering',
+      'To bind event handlers',
+      'To filter data',
+    ],
+    correctOption: 'To uniquely identify elements and optimize rendering',
+  },
+  {
+    question: 'What will happen if you update state directly without using setState in a class component?',
+    options: [
+      'The component will re-render normally',
+      'You’ll get a compilation error',
+      'React will detect and correct it automatically',
+      'The component will not re-render and state change may not persist',
+    ],
+    correctOption: 'The component will not re-render and state change may not persist',
+  },
+  {
+    question: 'Which hook would you use to preserve values between renders without causing a re-render?',
+    options: [
+      'useState',
+      'useEffect',
+      'useRef',
+      'useMemo',
+    ],
+    correctOption: 'useRef',
+  },
+  {
+    question: 'What does the "lifting state up" pattern in React mean?',
+    options: [
+      'Passing state from child to parent components',
+      'Creating global state accessible to all components',
+      'Moving shared state to the closest common ancestor component',
+      'Using Redux for state management',
+    ],
+    correctOption: 'Moving shared state to the closest common ancestor component',
+  },
+  {
+    question: 'Which method is used to pass data from a parent component to a child component?',
+    options: [
+      'Using useState',
+      'Using useEffect',
+      'Using props',
+      'Using context',
+    ],
+    correctOption: 'Using props',
+  },
+  {
+    question: 'Why should you avoid mutating state directly in React?',
+    options: [
+      'It’s faster to create a new object',
+      'It breaks React’s optimization and can lead to unpredictable behavior',
+      'It creates memory leaks',
+      'It causes syntax errors',
+    ],
+    correctOption: 'It breaks React’s optimization and can lead to unpredictable behavior',
+  },
+  {
+    question: 'What is JSX?',
+    options: [
+      'A new JavaScript syntax',
+      'An XML/HTML-like syntax used by React to describe UI elements',
+      'A CSS preprocessor',
+      'A testing library for React',
+    ],
+    correctOption: 'An XML/HTML-like syntax used by React to describe UI elements',
+  },
 ];
 
 export default QUESTIONS;
